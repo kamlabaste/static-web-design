@@ -13,11 +13,27 @@
         des activités présentées de votre choix. De plus, vous aurez la chance de profitez de l'environnement
         enrichissante qu'offre l'île de Moorea.</p>
 
-    <form>
+    <form action="/une-adresse" method="get">
         <label for="nom">Nom</label>
-        <input type="text" name="nom" id="nom" maxlength="50"><br>
+        <input type="text" name="nom" id="nom" maxlength="50" required><br>
         <label for="prenom">Prénom</label>
-        <input type="text" name="prenom" id="prenom" maxlength="50"><br>
+        <input type="text" name="prenom" id="prenom" maxlength="50" required><br>
+        <label for="age">Âge</label>
+        <input type="number" name="age" id="age" required><br>
+        <label for="email">Votre courriel</label>
+        <input type="email" name="email" id="email" required><br>
+        
+        <span id="choix-activites">Quelles activités souhaiteriez-vous agir en tant que bénévole ? (Plusieurs choix possible)</span><br>
+        <label for="tour-ile">Le Tour de l'île</label>
+        <input type="checkbox" name="choix-activites" id="tour-ile" value="tour-ile"><br>
+        <label for="plongee">Activités de Plongée</label>
+        <input type="checkbox" name="choix-activites" id="plongee" value="plongee"><br>
+        <label for="randonnee">Les Randonnées</label>
+        <input type="checkbox" name="choix-activites" id="randonnee" value="randonnee"><br>
+        <label for="culture-tradition">Moment de culture et tradition</label>
+        <input type="checkbox" name="choix-activites" id="culture-tradition" value="culture-tradition"><br>
+
+        <input type="submit" value="Soumettre le formulaire">
 
     </form>
 </body>
