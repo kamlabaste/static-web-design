@@ -1,7 +1,9 @@
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-} /*Peut affecter le fond d'image*/
+}
+
+/*Peut affecter le fond d'image*/
 
 #bloc-fond-image {
     overflow: hidden;
@@ -14,7 +16,9 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-} /*Fond d'image, attention à la manipulation*/
+}
+
+/*Fond d'image, attention à la manipulation*/
 
 #contenu-principal {
     position: relative;
@@ -27,4 +31,92 @@ h1 {
     padding: 40px 0px;
     font-style: italic;
     background-color: rgba(70, 240, 231, 0.5);
+}
+
+#paragraph-intro {
+    background-color: rgb(240, 248, 255, 0.8);
+    padding: 35px 55px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 155%;
+    line-height: 35px;
+}
+
+#sofitel-bloc {
+    margin: 50px 20px 70px;
+}
+
+#sofitel-bloc img {
+    float: left;
+    width: 100%;
+    max-width: 570px;
+    height: 100%;
+    min-height: 320px;
+    margin-right: 24px;
+}
+
+#manava-bloc {
+    margin: 50px 20px 70px;
+}
+
+#manava-bloc img {
+    float: right;
+    width: 100%;
+    max-width: 570px;
+    height: 100%;
+    min-height: 320px;
+    margin-left: 24px;
+}
+
+#hilton-bloc {
+    margin: 50px 20px 70px;
+}
+
+#hilton-bloc img {
+    float: left;
+    width: 100%;
+    max-width: 570px;
+    height: 100%;
+    min-height: 320px;
+    margin-right: 24px;
+}
+
+hr {
+    border: 4px solid rgba(2, 70, 2, 0.8);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+a {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#lien-retour {
+    background-color: rgba(247, 235, 135, 0.8);
+    margin: 10px 570px;
+    padding: 10px;
+    border-left: 2px solid rgb(19, 17, 117);
+    border-right: 2px solid rgb(19, 17, 117);
+    border-radius: 32px;
+    text-align: center;
+}
+
+#lien-retour:hover {
+    font-weight: bolder;
+}
+
+section p {
+    font-size: 120%;
+    line-height: 140%;
+}
+
+section li {
+    font-size: 110%;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }
