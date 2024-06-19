@@ -1,7 +1,9 @@
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-} /*Peut affecter le fond d'image*/
+}
+
+/*Peut affecter le fond d'image*/
 
 #bloc-fond-image {
     overflow: hidden;
@@ -14,10 +16,131 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-} /*Fond d'image, attention à la manipulation*/
+}
+
+/*Fond d'image, attention à la manipulation*/
 
 #contenu-principal {
-    margin: 2em;
     position: relative;
+}
+
+h1 {
     text-align: center;
+    font-size: 7em;
+    margin: 55px 0px 0px;
+    padding: 40px 0px;
+    font-style: italic;
+    background-color: rgba(70, 240, 231, 0.5);
+}
+
+#intro-paragraph {
+    background-color: rgb(240, 248, 255, 0.8);
+    padding: 35px 55px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 155%;
+    line-height: 35px;
+}
+
+hr {
+    border: 4px solid rgba(2, 70, 2, 0.8);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#contenu-carte {
+    text-align: center;
+    margin: 0px 500px;
+}
+
+#img-carte {
+    border: 2px dotted black;
+    max-width: 740px;
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+}
+
+#instruction-carte {
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(240, 248, 255, 0.9);
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#instruction-carte li,
+#instruction-carte p {
+    font-size: 120%;
+}
+
+#img-mer,
+#img-terre {
+    width: 100%;
+    max-width: 680px;
+    height: 100%;
+    max-height: 450px;
+    border-radius: 2em;
+    border: 4px solid rgba(33, 33, 33, 1)
+}
+
+#contenu-mer,
+#contenu-montagne {
+    text-align: center;
+}
+
+h3 {
+    border-left: 5px solid rgb(3, 3, 3);
+    border-right: 5px solid rgb(3, 3, 3);
+    border-radius: 32px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 15px;
+    font-size: 150%;
+}
+
+#contenu-paragraph-mer,
+#contenu-paragraph-montagne {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 1em;
+}
+
+h3 {
+    margin: 1em 22em;
+    font-size: 150%;
+    line-height: 170%;
+}
+
+#contenu-paragraph-mer p,
+#contenu-paragraph-montagne {
+    margin: 2em;
+    font-size: 120%;
+    line-height: 170%;
+}
+
+a {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#lien-retour {
+    background-color: rgba(247, 235, 135, 0.8);
+    margin: 10px 570px;
+    padding: 10px;
+    border-left: 2px solid rgb(19, 17, 117);
+    border-right: 2px solid rgb(19, 17, 117);
+    border-radius: 32px;
+    text-align: center;
+}
+
+#lien-retour:hover {
+    font-weight: bolder;
 }

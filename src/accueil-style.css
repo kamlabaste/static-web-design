@@ -11,7 +11,7 @@ body {
 
 /*Fond d'image, attention à la manipulation*/
 #fond-image {
-    opacity: 0.4;
+    opacity: 0.8;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -59,7 +59,7 @@ p {
 }
 
 .principal-one-bloc {
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.8);
     padding-top: 1em;
     padding-bottom: 0.5em;
     margin: 0em 10em 1em;
@@ -67,7 +67,7 @@ p {
 }
 
 .menu-bloc {
-    background-color: rgb(240, 255, 255, 0.8);
+    background-color:  rgba(245, 245, 220, 0.9);
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px 0px;
@@ -104,8 +104,13 @@ li a {
     font-size: 130%;
 }
 
+li a:hover {
+    font-size: 140%;
+    font-weight: bolder;
+}
+
 .article-bloc {
-    background-color: rgba(255, 226, 41, 0.8);
+    background-color: rgba(247, 235, 135, 0.8);
     border-radius: 1em;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -118,20 +123,32 @@ li a {
 
 article p {
     text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 article h2 {
     text-align: center;
     text-decoration: underline;
-    font-size: 150%;
+    font-size: 170%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 aside {
+    border-left: 2px solid rgb(19, 17, 117);
+    border-right: 2px solid rgb(19, 17, 117);
+    border-radius: 32px;
     margin-bottom: 2em;
+    margin-left: 30em;
+    margin-right: 30em;
+    padding: 10px;
     text-align: center;
 }
 
 .liens-externe {
     font-style: italic;
     font-size: 20px;
+}
+
+.liens-externe:hover {
+    font-weight: bolder;
 }
