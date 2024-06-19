@@ -143,6 +143,13 @@ hr {
     max-height: 320px;
 }
 
+#suggestion-itineraire li {
+    font-size: 120%;
+    line-height: 140%;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
 #lien-retour a {
     font-style: italic;
     font-size: 20px;
