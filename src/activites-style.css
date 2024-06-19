@@ -121,7 +121,6 @@ hr {
     border-bottom: 2px solid #000000;
     background-color: rgb(240, 248, 255, 0.7);
     border-radius: 20px;
-    text-align: justify;
     margin: 0px 224px;
     padding-bottom: 14px;
 }
@@ -138,9 +137,10 @@ hr {
 
 #suggestion-itineraire img {
     width: 100%;
-    max-width: 480px;
+    max-width: 700px;
     height: 100%;
-    max-height: 320px;
+    max-height: 410px;
+    margin-left: 14px;
 }
 
 #suggestion-itineraire li {
