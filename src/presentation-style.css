@@ -152,3 +152,40 @@ h3 {
 #lien-retour:hover {
     font-weight: bolder;
 }
+
+.menu-bloc {
+    background-color:  rgba(245, 245, 220, 0.9);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 0px;
+    border-radius: 2em;
+    border-left: 5px solid rgb(28, 46, 46);
+    border-right: 5px solid rgb(28, 46, 46);
+}
+
+.menu-navigation {
+    text-align: center;
+}
+
+.menu-navigation .menu-titre {
+    font-weight: bolder;
+    font-size: 180%;
+}
+
+nav {
+    text-align: center;
+}
+
+.liens-navigation li {
+    display: inline;
+    margin: 0px 10px
+}
+
+.liens-navigation li a {
+    font-size: 140%;
+}
+
+.liens-navigation li a:hover {
+    font-size: 140%;
+    font-weight: bolder;
+}
