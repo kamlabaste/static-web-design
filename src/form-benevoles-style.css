@@ -61,9 +61,50 @@ form {
     border-bottom: 2px solid #000000;
     background-color: rgb(240, 248, 255, 0.7);
     border-radius: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 14px 10px;
     font-size: 130%;
-    line-height: 225%;
+}
+
+.champ-bloc {
+    margin: 20px 120px;
+    text-align: justify;
+}
+
+.champ-bloc label {
+    display: block;
+}
+
+.champ-bloc input {
+    width: 70%;
+}
+
+
+fieldset {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+aside a {
+    font-size: 120%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#lien-retour {
+    background-color: rgba(247, 235, 135, 0.8);
+    margin: 10px 570px;
+    padding: 10px;
+    border-left: 2px solid rgb(19, 17, 117);
+    border-right: 2px solid rgb(19, 17, 117);
+    border-radius: 32px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#lien-retour:hover {
+    font-weight: bolder;
 }
