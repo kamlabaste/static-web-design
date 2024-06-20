@@ -68,7 +68,7 @@ form {
 }
 
 .champ-bloc {
-    margin: 20px 120px;
+    margin: 20px 140px;
     text-align: justify;
 }
 
@@ -77,14 +77,29 @@ form {
 }
 
 .champ-bloc input {
-    width: 70%;
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-
 
 fieldset {
     margin-top: 20px;
     margin-left: 70px;
     margin-right: 70px;
+}
+
+.checkbox-bloc {
+    text-align: justify;
+    margin: 10px 180px;
+}
+
+input[type="submit"] {
+    margin: 14px 0px;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(233, 224, 224);
+    border-radius: 10px;
 }
 
 aside a {
