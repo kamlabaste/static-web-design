@@ -1,11 +1,10 @@
-html {
-    height: 100%;
-}
+/*Peut affecter le fond d'image*/
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     height: 100%;
-} /*Peut affecter le fond d'image*/
+}
+
 
 #bloc-fond-image {
     overflow: hidden;
@@ -14,19 +13,57 @@ body {
     height: 100%;
 }
 
-
+/*Fond d'image, attention à la manipulation*/
 #fond-image {
     opacity: 0.5;
     position: absolute;
-} /*Fond d'image, attention à la manipulation*/
+}
+
 
 #contenu-principal {
-    margin: 2em;
     position: relative;
     text-align: center;
 }
 
+/*Fond d'image, ajuste la taille manuellement*/
 img {
     width: 100%;
     height: 100%;
-} /*Fond d'image, ajuste la taille manuellement*/
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    margin: 45px 0px 0px;
+    padding: 40px 0px;
+    font-style: italic;
+    background-color: rgba(70, 240, 231, 0.5);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+#paragraph-intro {
+    background-color: rgb(240, 248, 255, 0.8);
+    padding: 35px 55px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 155%;
+    line-height: 35px;
+}
+
+form {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background-color: rgb(240, 248, 255, 0.7);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 8px;
+    font-size: 130%;
+    line-height: 225%;
+}

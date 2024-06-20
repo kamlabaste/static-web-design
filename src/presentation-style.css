@@ -31,6 +31,8 @@ h1 {
     padding: 40px 0px;
     font-style: italic;
     background-color: rgba(70, 240, 231, 0.5);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 #intro-paragraph {
@@ -42,6 +44,8 @@ h1 {
     margin-right: 5%;
     font-size: 155%;
     line-height: 35px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 hr {
@@ -71,6 +75,8 @@ hr {
     padding: 15px 20px;
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
 }
 
 #instruction-carte li,
@@ -111,6 +117,8 @@ h3 {
     margin-left: 10em;
     margin-right: 10em;
     border-radius: 1em;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 h3 {

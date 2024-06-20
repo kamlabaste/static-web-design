@@ -28,6 +28,8 @@ h1 {
     padding: 40px 0px;
     font-style: italic;
     background-color: rgba(70, 240, 231, 0.5);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 .contenu-img {
@@ -64,6 +66,7 @@ p {
     padding-bottom: 0.5em;
     margin: 0em 10em 1em;
     border-radius: 1em;
+    border-bottom: 2px solid #000000;
 }
 
 .menu-bloc {

@@ -31,6 +31,8 @@ h1 {
     padding: 40px 0px;
     font-style: italic;
     background-color: rgba(70, 240, 231, 0.5);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 img {
@@ -49,6 +51,7 @@ img {
     margin-right: 5%;
     font-size: 155%;
     line-height: 35px;
+    border-bottom: 2px solid #000000;
 }
 
 #sofitel-bloc {
@@ -56,6 +59,8 @@ img {
     background-color: rgb(255, 255, 255, 0.7);
     padding: 15px;
     border-radius: 8px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 #sofitel-bloc img {
@@ -72,6 +77,8 @@ img {
     background-color: rgb(255, 255, 255, 0.7);
     padding: 15px;
     border-radius: 8px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 #manava-bloc img {
@@ -88,6 +95,8 @@ img {
     background-color: rgb(255, 255, 255, 0.7);
     padding: 15px;
     border-radius: 8px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 #hilton-bloc img {

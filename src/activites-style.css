@@ -30,6 +30,8 @@ h1 {
     padding: 40px 0px;
     font-style: italic;
     background-color: rgba(70, 240, 231, 0.5);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 #paragraph-intro {
