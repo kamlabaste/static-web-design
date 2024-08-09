@@ -1,6 +1,14 @@
 
-# inf-3190 : tp1
+# Static web design
 
-TP1 du cours INF3190 intitul&eacute; : Conception d'un site web statique.
+Source code using HTML and CSS.
+
+*Project for a web development course.*
+
+---
+
+Code source utilis&eacute;s sont HTML et CSS.
+
+*Travail pratique d'un cours de d&eacute;veloppement web.*
 
 
